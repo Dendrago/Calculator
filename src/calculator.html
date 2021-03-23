@@ -1,38 +1,39 @@
 <head>
 	<link rel="stylesheet" href="../style/calculator.css">
+	<script src="../scripts/calculator.js"></script>
 </head>
 
 <body>
 	<table id="container">
 		<tbody>
 			<tr>
-				<td colspan="4">Answer</td>
+				<td id="result" colspan="4">Answer</td>
 			</tr>
 			<tr>
-				<td>+</td>
-				<td>-</td>
-				<td>*</td>
-				<td>/</td>
+				<td class="operator" data-operator="add">+</td>
+				<td class="operator" data-operator="subtract">-</td>
+				<td class="operator" data-operator="multiply">*</td>
+				<td class="operator" data-operator="divide">/</td>
 			</tr>
 			<tr>
-				<td>7</td>
-				<td>8</td>
-				<td>9</td>
-				<td rowspan="4">=</td>
+				<td class="number" data-number="7">7</td>
+				<td class="number" data-number="8">8</td>
+				<td class="number" data-number="9">9</td>
+				<td id="equal" rowspan="4">=</td">
 			</tr>
 			<tr>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
+				<td class="number" data-number="4">4</td>
+				<td class="number" data-number="5">5</td>
+				<td class="number" data-number="6">6</td>
 			</tr>
 			<tr>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
+				<td class="number" data-number="1">1</td>
+				<td class="number" data-number="2">2</td>
+				<td class="number" data-number="3">3</td>
 			</tr>
 			<tr>
-				<td colspan="2">AC</td>
-				<td>0</td>
+				<td id="clear" colspan="2">AC</td>
+				<td class="number" data-number="0">0</td>
 			</tr>
 		</tbody>
 	</table>

@@ -11,5 +11,9 @@
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
+	font-size: 25px;
+}
 
+#container #equal, #container #result {
+	background-color: lightblue;
 }
