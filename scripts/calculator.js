@@ -27,7 +27,7 @@ function numberClick() {
 }
 
 function operatorClick() {
-	if (operatorSet && number2 !== '') {
+	if (operatorSet && number2 !== '' && number1 !== '') {
 		calculate();
 	}
 
