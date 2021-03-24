@@ -1,19 +1,21 @@
 <head>
 	<link rel="stylesheet" href="../style/calculator.css">
-	<script src="../scripts/calculator.js"></script>
 </head>
 
 <body>
 	<table id="container">
 		<tbody>
 			<tr>
-				<td id="result" colspan="4">Answer</td>
+				<td id="tdResult" colspan="4">
+					<span id="txtNumber2"></span><br>
+					<span id="txtNumber1"></span><span id="txtOperator"></span>
+				</td>
 			</tr>
 			<tr>
-				<td class="operator" data-operator="add">+</td>
-				<td class="operator" data-operator="subtract">-</td>
-				<td class="operator" data-operator="multiply">*</td>
-				<td class="operator" data-operator="divide">/</td>
+				<td class="operator" data-operator="+">+</td>
+				<td class="operator" data-operator="-">-</td>
+				<td class="operator" data-operator="*">*</td>
+				<td class="operator" data-operator="/">/</td>
 			</tr>
 			<tr>
 				<td class="number" data-number="7">7</td>
@@ -38,3 +40,7 @@
 		</tbody>
 	</table>
 </body>
+
+<foot>
+	<script src="../scripts/calculator.js"></script>
+</foot>
